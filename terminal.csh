@@ -50,6 +50,7 @@ if ($?prompt) then
 	stty kill 
 	#stty erase 
 
+	# This next section is also in gitbranch.csh
 	if ($uname == "Darwin") then
 		echo "]1;${shorthostname}]2;${USER}@${shorthostname} ${PWD:s,/Users/franc,~,}"
 	else

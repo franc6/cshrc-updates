@@ -18,6 +18,7 @@ if ($?prompt) then
 		alias cwdcmd 'set prompt="%~ %{\033[33m%}`$GIT_SHOW_BRANCH_CMD`%{\033[0m%} \nYes, master?" ; echo "]2;${USER}@${shorthostname} ${PWD:s,/home/franc,~,}"'
 	endif
 
+	# This next section is also in terminal.csh
 	if ($uname == "Darwin") then
 		echo "]1;${shorthostname}]2;${USER}@${shorthostname} ${PWD:s,/Users/franc,~,}"
 	else
