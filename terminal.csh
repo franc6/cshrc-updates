@@ -10,6 +10,8 @@ foreach dir (/usr/share/terminfo /usr/share/misc/terminfo /opt/local/share/termi
 	endif
 end
 
+setenv LC_ALL en_US.UTF-8
+setenv LANG en_US.UTF-8
 
 if ($?prompt) then
 	if ($uname == "FreeBSD") then
