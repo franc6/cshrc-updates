@@ -7,3 +7,5 @@ These are various parts of my .cshrc file, broken out into separate, usable chun
 | settings.csh | additional shell settings and aliases |
 | sshagent.csh | connects to a running instance of ssh-agent, or starts it up if it's not running|
 | terminal.csh | includes terminal settings for running in XTerms (or similar), setting the title, keybindings, and more|
+
+[![Buy me some pizza](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/qpunYPZx5)
